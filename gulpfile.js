@@ -1,9 +1,9 @@
 const gulp = require ('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const sourcemaps = require('gulp-sourcemaps');
-const uglify = required ('gulp-uglify');
-const obfuscate = required ('gulp-obfuscate');
-const imagemin = required ('gulp-imagemin');
+const uglify = require ('gulp-uglify');
+const obfuscate = require ('gulp-obfuscate');
+const imagemin = require ('gulp-imagemin');
 
 function comprimeImagem() {
     return gulp.src('./source/images/*')

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "gulp": "gulp",
-    "sass": "sass source/main.scss build/main.css --watch",
+    "sass": "sass source/styles/main.scss build/styles/main.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
